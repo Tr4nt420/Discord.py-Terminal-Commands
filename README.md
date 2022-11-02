@@ -36,3 +36,5 @@ async def on_ready():
 
 bot.run(')
 ```
+
+**For more examples see preview.py**
