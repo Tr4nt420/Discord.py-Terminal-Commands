@@ -65,12 +65,6 @@ async def listmembers(guild):
         print(i.name, " ", i.id)
     return True
                                          
-
-
-@bot.command()
-async def ping(ctx):
-    await ctx.send("PONG")
-
 @bot.event
 async def on_ready():
     print("IS READY")
